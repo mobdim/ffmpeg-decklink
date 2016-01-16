@@ -69,7 +69,7 @@ class Ffmpeg < Formula
       # patch `common.mk` for using `clang++` to compile `.cpp` files.
       # `clang++` does not allow flag `-std=c99`.
       patch do
-          url "https://github.com/dche/ffmpeg-decklink/raw/master/patch.diff"
+          url "https://github.com/mobdim/ffmpeg-decklink/raw/master/patch.diff"
           sha256 "62253f9fbe8765f04cba6ade97f0e81687978e8caff1b278f176f3e4545ea34c"
       end
   end
